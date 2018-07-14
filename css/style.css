@@ -1,0 +1,124 @@
+header{
+  padding-top: 80px;
+  background-color: ;
+}
+a{
+  text-decoration: none;
+}
+.brand h2{
+  color:#125B9F;
+  font-family: 'Raleway', sans-serif;
+}
+.buttonarea{
+  text-align: center;
+  padding-top: 50px;
+  border-left: 2px solid red;
+  padding-bottom: 40px;
+}
+.btn:hover{
+  color: #125B9F;
+}
+.social{
+  font-size: 30px;
+  text-align: center;
+  padding-top: 30px;
+}
+.social a{
+  text-decoration: none;
+  padding: 8px;
+}
+.container{
+max-width: 900px;
+text-align: center;
+}
+.intro{
+  height: 200px;
+  padding-top: 30px;
+  padding-bottom:20px;
+margin-top: 40px;
+font-family: 'PT Serif', serif;
+padding-left: 13%;
+text-align: left;
+color: #0D476A;
+padding-bottom: 0;
+font-size: 16px;
+}
+.dream{
+  font-size:25px;
+  font-weight: bold;
+}
+.intro:hover{
+color:#125B9F;
+}
+footer{
+  background-color: lightgrey;
+  height: 40px;
+  color:black;
+  text-align: center;
+  width: 100%;
+}
+footer .footer{
+  font-weight: bold;
+  padding-top: 12px;
+}
+.skill{
+  padding-bottom: 40px;
+}
+@media only screen and (max-width:549px){
+.intro{
+  border: none;
+  width 40px;
+  padding-left: 0;
+  text-align: center;
+  margin-top: 20px;
+  background-color: #F4F6F9;
+  padding-bottom: 30px;
+}
+.skill{
+  padding-top: 20px;
+  }
+.main-header{
+  margin-top: 10%;
+}
+.buttonarea{
+  text-align: center;
+  border:none;
+  padding-left: 0px;
+}
+.social{
+  font-size: 30px;
+  border: none;
+  padding-top: 30px;
+  text-align: center;
+}
+}
+@media only screen and (min-width:550px) {
+.main-header{
+  margin-top: 25%;
+  min-height: 40vh;
+}
+}
+.myicon{
+  height: 140px;
+  width: 130px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.skill{
+  padding-top: 80px;
+  }
+  .skill h3{
+    font-family: 'Francois One', sans-serif;
+    color:#464A83;
+  }
+.logo{
+  width: auto;
+}
+.font{
+  font-weight: bold;
+}
+.icon{
+  height: 120px;
+  width: auto;
+}
+
+}
