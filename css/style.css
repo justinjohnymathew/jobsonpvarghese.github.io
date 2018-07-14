@@ -1,54 +1,51 @@
-header{
-  padding-top: 80px;
-  background-color: ;
+.myicon{
+  height: 140px;
+  width: 130px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 a{
-  text-decoration: none;
+text-decoration: none;
+color: inherit;
 }
-.brand h2{
-  color:#125B9F;
-  font-family: 'Raleway', sans-serif;
+
+h1,h2,h3,h4,h5,h6{
+color: red;
 }
-.buttonarea{
-  text-align: center;
-  padding-top: 50px;
-  border-left: 2px solid red;
-  padding-bottom: 40px;
-}
-.btn:hover{
-  color: #125B9F;
-}
-.social{
-  font-size: 30px;
-  text-align: center;
-  padding-top: 30px;
-}
-.social a{
-  text-decoration: none;
-  padding: 8px;
-}
+
+
 .container{
 max-width: 900px;
 text-align: center;
 }
-.intro{
-  height: 200px;
+
+@media only screen and (max-width:549px){
+.buttonarea{
+  border: none;
+  width 40px;
+  padding-left: 0;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.main-header{
+  margin-top: 10%;
+  padding-bottom: 30px;
+
+}
+.social{
+  font-size: 30px;
+  border: none;
   padding-top: 30px;
-  padding-bottom:20px;
-margin-top: 40px;
-font-family: 'PT Serif', serif;
-padding-left: 13%;
-text-align: left;
-color: #0D476A;
-padding-bottom: 0;
-font-size: 16px;
+  text-align: center;
 }
-.dream{
-  font-size:25px;
-  font-weight: bold;
+.social-icons:hover{
+  color: red;
 }
-.intro:hover{
-color:#125B9F;
+.skill{
+  padding-top: 20px;
+}
+.intro{
+  padding-left: 0;
 }
 footer{
   background-color: lightgrey;
@@ -64,61 +61,87 @@ footer .footer{
 .skill{
   padding-bottom: 40px;
 }
-@media only screen and (max-width:549px){
-.intro{
-  border: none;
-  width 40px;
-  padding-left: 0;
-  text-align: center;
-  margin-top: 20px;
-  background-color: #F4F6F9;
-  padding-bottom: 30px;
-}
-.skill{
-  padding-top: 20px;
-  }
-.main-header{
-  margin-top: 10%;
-}
-.buttonarea{
-  text-align: center;
-  border:none;
-  padding-left: 0px;
-}
-.social{
-  font-size: 30px;
-  border: none;
-  padding-top: 30px;
-  text-align: center;
-}
 }
 @media only screen and (min-width:550px) {
 .main-header{
-  margin-top: 25%;
-  min-height: 40vh;
+  margin-top: 15%;
+  min-height: 50vh;
+
 }
+.buttonarea{
+  border-left: 2px solid red;
+  width 40px;
+  padding-left: 0;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 35px;
+  padding-left: 20%;
 }
-.myicon{
-  height: 140px;
-  width: 130px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+.intro{
+padding-left: 0;
+text-align: left;
+color: rgb(88, 88, 88);
 }
-.skill{
-  padding-top: 80px;
-  }
-  .skill h3{
-    font-family: 'Francois One', sans-serif;
-    color:#464A83;
-  }
-.logo{
-  width: auto;
+.intro:hover{
+color:rgba(8, 7, 7, 0.87);
 }
-.font{
+.social{
+  font-size: 30px;
+  text-align: center;
+  padding-top: 30px;
+}
+.social a{
+  text-decoration: none;
+  padding: 8px;
+}
+.social-icons:hover{
+  color: red;
+}
+
+}
+.brand h2{
+  color:#125B9F;
+  font-family: 'Raleway', sans-serif;
+}
+.intro{
+  height: 240px;
+  padding-top: 20px;
+  padding-bottom:30px;
+  font-family: 'PT Serif', serif;
+  padding-left: 8%;
+  text-align: left;
+  color: #0D476A;
+  font-size: 16px;
+
+}
+.dream{
+  font-size:25px;
   font-weight: bold;
 }
 .icon{
-  height: 120px;
+  height: 110px;
   width: auto;
 }
+.skill{
+  padding-bottom: 40px;
+}
+.skill h3{
+  font-family: 'Francois One', sans-serif;
+  color:#464A83;
+}
 
+.font{
+font-weight: bold;
+}
+footer{
+  background-color: lightgrey;
+  height: 40px;
+  color:black;
+  text-align: center;
+  width: 100%;
+}
+footer .footer{
+  font-weight: bold;
+  padding-top: 12px;
+}
 }
