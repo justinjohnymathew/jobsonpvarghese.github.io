@@ -21,17 +21,20 @@ color: red;
   width: 110px;
 }
 .container{
-max-width: 900px;
+max-width: 1000px;
 text-align: center;
 }
 
+.edu{
+  font-weight: bold;
+}
 @media only screen and (max-width:549px){
 .buttonarea{
   border: none;
   width 40px;
   padding-left: 0;
   text-align: center;
-  margin-top: 30px;
+  margin-top: 14px;
 }
 
 .main-header{
@@ -55,18 +58,9 @@ text-align: center;
 .intro{
   text-align: center;
   padding-left: 0;
+  padding-bottom: 30px;
 }
-footer{
-  background-color: lightgrey;
-  height: 40px;
-  color:black;
-  text-align: center;
-  width: 100%;
-}
-footer .footer{
-  font-weight: bold;
-  padding-top: 12px;
-}
+
 .skill{
   padding-bottom: 40px;
 }
@@ -77,7 +71,18 @@ footer .footer{
 .social a:hover{
   color:orange;
 }
-
+.about{
+  text-align:left;
+  font-size: 16px;
+  color:lightgrey;
+  background-color: ;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-right: 10px;
+}
+.aboutme{
+  font-weight: bold;
+}
 }
 @media only screen and (min-width:550px) {
 .main-header{
@@ -137,11 +142,14 @@ color:rgba(8, 7, 7, 0.87);
   font-weight: bold;
 }
 .icon{
-  height: 110px;
+  text-align: center;
+  height: 90px;
   width: auto;
 }
 .skill{
+  padding-top: 10px;
   padding-bottom: 40px;
+
 }
 .skill h3{
   font-family: 'Francois One', sans-serif;
@@ -151,16 +159,38 @@ color:rgba(8, 7, 7, 0.87);
 .font{
 font-weight: bold;
 }
-footer{
-
-  background-color: lightgrey;
-  height: 40px;
-  color:black;
-  text-align: center;
-  width: 100%;
+.about{
+  text-align:left;
+  font-size: 16px;
+  color:#F8FAFD;
+  background-color: #42464A;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-right: 10px;
+  font-family: 'Raleway', sans-serif;
+  padding-bottom: 20px;
 }
-footer .footer{
+.aboutme{
   font-weight: bold;
-  padding-top: 12px;
+  padding-bottom: 20px;
+}
+ .college{
+  font-size: 22px;
+}
+.school{
+  font-size: 20px;
+}
+.footer{
+
+  background-color:lightgrey;
+  height: 45px;
+  text-align: center;
+  padding-right: 30px;
+}
+.copy{
+  font-weight: bold;
+}
+.allright{
+  font-size: 12px;
 }
 }
