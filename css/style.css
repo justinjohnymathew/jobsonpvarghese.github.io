@@ -14,6 +14,12 @@ color: red;
 .main-header .social a{
   text-decoration: none;
 }
+.button1{
+  width: 130px;
+}
+.button2{
+  width: 110px;
+}
 .container{
 max-width: 900px;
 text-align: center;
@@ -34,10 +40,11 @@ text-align: center;
 
 }
 .social{
-  font-size: 30px;
+  font-size: 40px;
   border: none;
   padding-top: 30px;
   text-align: center;
+  color: #0B5972;
 }
 .social-icons:hover{
   color: red;
@@ -46,6 +53,7 @@ text-align: center;
   padding-top: 20px;
 }
 .intro{
+  text-align: center;
   padding-left: 0;
 }
 footer{
@@ -62,15 +70,23 @@ footer .footer{
 .skill{
   padding-bottom: 40px;
 }
+.social a{
+  text-decoration: none;
+  padding: 3px;
+}
+.social a:hover{
+  color:orange;
+}
+
 }
 @media only screen and (min-width:550px) {
 .main-header{
   margin-top: 15%;
-  min-height: 50vh;
+  min-height:20vh;
 
 }
 .buttonarea{
-  border-left: 2px solid red;
+  border-left: 2px solid orange;
   width 40px;
   padding-left: 0;
   text-align: center;
@@ -80,23 +96,24 @@ footer .footer{
 }
 .intro{
 padding-left: 0;
-text-align: left;
+text-align:center;
 color: rgb(88, 88, 88);
 }
 .intro:hover{
 color:rgba(8, 7, 7, 0.87);
 }
 .social{
-  font-size: 30px;
+  color: #0B5972;
+  font-size: 40px;
   text-align: center;
   padding-top: 30px;
 }
 .social a{
   text-decoration: none;
-  padding: 8px;
+  padding: 3px;
 }
-.social-icons:hover{
-  color: red;
+.social a:hover{
+  color:orange;
 }
 
 }
@@ -135,6 +152,7 @@ color:rgba(8, 7, 7, 0.87);
 font-weight: bold;
 }
 footer{
+
   background-color: lightgrey;
   height: 40px;
   color:black;
