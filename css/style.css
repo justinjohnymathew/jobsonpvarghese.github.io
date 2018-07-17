@@ -125,6 +125,7 @@ text-align: center;
     color:orange;
   }
   .about{
+    margin-top: 30px;
     text-align:left;
     font-size: 16px;
     color:lightgrey;
@@ -201,6 +202,7 @@ color:rgba(8, 7, 7, 0.87);
 font-weight: bold;
 }
 .about{
+  margin-top: 60px;
   text-align:left;
   font-size: 16px;
   color:#F8FAFD;
