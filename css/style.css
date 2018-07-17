@@ -31,12 +31,28 @@ text-align: center;
 .skillimg{
   width: 100%;
 }
+.angle{
+  font-size: 30px;
+  line-height: 35px;
+}
+.cap1{
+  font-size: 30px;
+}
+.cap2{
+  font-size: 22px;
+}
+.cap3{
+  font-size: 20px;
+}
 .skill-animation{
   margin:auto;
+  color: grey;
   max-width:10%;
-  min-width: 100px;
+  min-width: 220px;
   text-align:center;
   position: relative;
+  font-size: 30px;
+  font-weight: bold;
   animation: movement 4s infinite;
 }
 @keyframes movement{
@@ -54,7 +70,7 @@ text-align: center;
   .skill-animation{
     margin:auto;
     max-width:10%;
-    max-width: 112px;
+    max-width: 150px;
     margin-left: 80px;
     text-align:center;
     position: relative;
@@ -218,12 +234,7 @@ font-weight: bold;
 .allright{
   font-size: 12px;
 }
-.skillbrand,.angle{
-  font-size: 40px;
-  font-weight: bold;
-  color: grey;
-}
-.skillimg{
-  padding-bottom: 20px;
+{
+  font-size: 30px;
 }
 }
