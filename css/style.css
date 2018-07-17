@@ -31,8 +31,46 @@ text-align: center;
 .skillimg{
   width: 100%;
 }
+.skill-animation{
+  margin:auto;
+  max-width:10%;
+  min-width: 100px;
+  text-align:center;
+  position: relative;
+  animation: movement 4s infinite;
+}
+@keyframes movement{
+  0%{
+    left: 140px;
+  }
+  50%{
+    left: -140px
+  }
+  100%{
+    left: 140px;
+  }
+}
 @media only screen and (max-width:549px){
-
+  .skill-animation{
+    margin:auto;
+    max-width:10%;
+    max-width: 112px;
+    margin-left: 80px;
+    text-align:center;
+    position: relative;
+    animation: movement 4s infinite;
+  }
+  @keyframes movement{
+    0%{
+      left: 140px;
+    }
+    50%{
+      left: -140px
+    }
+    100%{
+      left: 140px;
+    }
+  }
   .buttonarea{
     border: none;
     width 40px;
@@ -125,7 +163,7 @@ color:rgba(8, 7, 7, 0.87);
 .intro{
   height: 240px;
   padding-top: 20px;
-  padding-bottom:20px;
+  padding-bottom:10px;
   font-family: 'PT Serif', serif;
   padding-left: 10%;
   text-align: left;
@@ -181,9 +219,9 @@ font-weight: bold;
   font-size: 12px;
 }
 .skillbrand,.angle{
-  font-size: 35px;
+  font-size: 40px;
   font-weight: bold;
-  color: #0D476A;
+  color: grey;
 }
 .skillimg{
   padding-bottom: 20px;
