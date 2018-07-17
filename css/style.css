@@ -28,79 +28,61 @@ text-align: center;
 .edu{
   font-weight: bold;
 }
-
+.skillimg{
+  width: 100%;
+}
 @media only screen and (max-width:549px){
-.buttonarea{
-  border: none;
-  width 40px;
-  padding-left: 0;
-  text-align: center;
-  margin-top: 14px;
-}
 
-.main-header{
-  margin-top: 10%;
-  padding-bottom: 30px;
+  .buttonarea{
+    border: none;
+    width 40px;
+    padding-left: 0;
+    text-align: center;
+    margin-top: 14px;
+  }
 
-}
-.social{
-  font-size: 40px;
-  border: none;
-  padding-top: 30px;
-  text-align: center;
-  color: #0B5972;
-}
-.social-icons:hover{
-  color: red;
-}
+  .main-header{
+    margin-top: 10%;
+    padding-bottom: 30px;
 
-.intro{
-  text-align: center;
-  padding-left: 0;
-  padding-bottom: 30px;
-}
+  }
+  .social{
+    font-size: 40px;
+    border: none;
+    padding-top: 30px;
+    text-align: center;
+    color: #0B5972;
+  }
+  .social-icons:hover{
+    color: red;
+  }
 
-.social a{
-  text-decoration: none;
-  padding: 3px;
-}
-.social a:hover{
-  color:orange;
-}
-.about{
-  text-align:left;
-  font-size: 16px;
-  color:lightgrey;
-  background-color: ;
-  padding-left: 20px;
-  padding-top: 0px;
-  padding-right: 10px;
-}
-.aboutme{
-  font-weight: bold;
-}
-.respon {
-  text-align: center;
-  position: relative;
-  border-bottom: 0;
-  padding-bottom: 0;
-  margin: 10px;
-  font-size: 25px;
-  font-size: 2vw;
-}
-.skill{
-  height: 20vh;
-  width: auto;
-  margin-bottom: 10%;
-  padding-left: 15%;
-}
-.skillbrand{
-  font-size: 40px;
-  font-family:'Oswald', sans-serif;
-  font-weight: bold;
-  color:#0D476A;
-  padding-top: 20px;
-}
+  .intro{
+    text-align: center;
+    padding-left: 0;
+    padding-bottom: 15px;
+  }
+
+  .social a{
+    text-decoration: none;
+    padding: 3px;
+  }
+  .social a:hover{
+    color:orange;
+  }
+  .about{
+    text-align:left;
+    font-size: 16px;
+    color:lightgrey;
+    background-color: ;
+    padding-left: 20px;
+    padding-top: 0px;
+    padding-right: 10px;
+  }
+  .aboutme{
+    font-weight: bold;
+  }
+
 }
 @media only screen and (min-width:550px) {
 .main-header{
@@ -117,11 +99,7 @@ text-align: center;
   padding-bottom: 35px;
   padding-left: 20%;
 }
-.intro{
-padding-left: 0;
-text-align:center;
-color: rgb(88, 88, 88);
-}
+
 .intro:hover{
 color:rgba(8, 7, 7, 0.87);
 }
@@ -149,7 +127,7 @@ color:rgba(8, 7, 7, 0.87);
   padding-top: 20px;
   padding-bottom:20px;
   font-family: 'PT Serif', serif;
-  padding-left: %;
+  padding-left: 10%;
   text-align: left;
   color: #0D476A;
   font-size: 16px;
@@ -173,7 +151,7 @@ font-weight: bold;
   font-size: 16px;
   color:#F8FAFD;
   background-color: #42464A;
-  padding-left: 20px;
+  padding-left: 30px;
   padding-top: 20px;
   padding-right: 10px;
   font-family: 'Raleway', sans-serif;
@@ -202,207 +180,12 @@ font-weight: bold;
 .allright{
   font-size: 12px;
 }
-.skill{
-  padding-left:;
-  height: 40vh;
-  width: auto;
-  margin-bottom:10%;
-  padding-left: 0%;
-}
-.skillbrand{
-  font-size: 40px;
-  font-family:'Oswald', sans-serif;
+.skillbrand,.angle{
+  font-size: 35px;
   font-weight: bold;
-  color:#0D476A;
-  text-align: center;
+  color: #0D476A;
 }
-@import url(https://fonts.googleapis.com/css?family=Oswald:400,700,300);
-
-#techList {
-	position: relative;
-  list-style: none;
-  margin: 0;
-  padding: 20px;
-  font-family: 'Oswald', sans-serif;
-  font-size: 100%;
-  text-transform: uppercase;
-  color: #666;
+.skillimg{
+  padding-bottom: 20px;
 }
-
-#techList li {
-	position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.html5 {
-  font-weight: 700;
-  letter-spacing: -.07em;
-  -webkit-transform:
-  		scale(7.5, 7.8)
- 			translate(1.18em, .58em);
-  -moz-transform:
-    	scale(7.5, 7.8)
- 			translate(1.18em, .58em);
-}
-
-.javascript {
-  letter-spacing: -.04em;
-  font-weight: 400;
-	-webkit-transform:
-    	scale(1.4)
-    	rotate(90deg)
-    	translate(3.88em, -14.2em);
-  -moz-transform:
-    	scale(1.4)
-    	rotate(90deg)
-    	translate(3.88em, -13.2em);
-}
-
-.accessibility {
-  letter-spacing: -.05em;
-  font-weight: 300;
-	-webkit-transform:
-    	scale(1.4, 1.33)
-    	rotate(90deg)
-    	translate(4.1em, -22.0em);
-  -moz-transform:
-    	scale(1.4, 1.33)
-    	rotate(90deg)
-    	translate(4.1em, -18.0em);
-}
-
-.responsive {
-  font-weight: 300;
-  letter-spacing: -.03em;
-  word-spacing: .3em;
-  -webkit-transform:
-    	scale(2)
-    	translate(2.12em, 5.14em);
-  -moz-transform:
-    	scale(2)
-    	translate(2.12em, 5.14em);
-}
-
-.php {
-  letter-spacing: -0.01em;
-  font-weight: 700;
-	-webkit-transform:
-    	scale(2.4, 2.3)
-    	rotate(90deg)
-    	translate(7.0em, -7.5em);
-  -moz-transform:
-    	scale(2.4, 2.3)
-    	rotate(90deg)
-    	translate(6em, -5.8em);
-}
-
-.css3 {
-  letter-spacing: .01em;
-  font-weight: 700;
-	-webkit-transform:
-    	scale(6.8, 6.75)
-    	rotate(90deg)
-    	translate(1.32em, -6.0em);
-  -moz-transform:
-    	scale(6.8, 6.75)
-    	rotate(90deg)
-    	translate(1.32em, -4.54em);
-}
-
-.jquery {
-  letter-spacing: 0.045em;
-  font-weight: 700;
-	-webkit-transform:
-    	scale(3.88, 3.8)
-    	translate(7.35em, 3.5em);
-  -moz-transform:
-    	scale(3.88, 3.8)
-    	translate(5.42em, 3.72em);
-}
-
-.objectoriented {
-  font-weight: 700;
-  letter-spacing: -.010em;
-  -webkit-transform:
-    	scale(1.85, 1.9)
-      translate(1.86em, 7.0em);
-  -moz-transform:
-      scale(1.85, 1.9)
-      translate(1.86em, 6.5em);
-}
-
-.wordpress {
-  font-weight: 300;
-  letter-spacing: -0.05em;
-  -webkit-transform:
-    	scale(2.75, 3)
-      translate(1.72em, 4.95em);
-  -moz-transform:
-      scale(2.75, 3)
-      translate(1.72em, 4.95em);
-}
-
-.seo {
-  font-weight: 300;
-  letter-spacing: -0.07em;
-  -webkit-transform:
-    	scale(3.9, 4)
-      translate(7.05em, 1.0em);
-  -moz-transform:
-      scale(3.9, 4)
-      translate(6.05em, .95em);
-}
-
-.bootstrap {
-  font-weight: 700;
-  letter-spacing: 0.1em;
-  word-spacing: .2em;
-  color: #ee5d29;
-  -webkit-transform:
-  		scale(2)
-      translate(2.28em, 8.58em);
-  -moz-transform:
-      scale(2)
-      translate(2.28em, 8.58em);
-}
-
-.webstandards {
-  font-weight: 300;
-  letter-spacing: 0em;
-  word-spacing: .1em;
-  -webkit-transform:
-    	scale(2)
-      translate(12.7em, 8.6em);
-  -moz-transform:
-      scale(2)
-      translate(12.7em, 8.6em);
-}
-
-.as{
-  color: #ee5d29;
-  font-weight: 700;
-  letter-spacing: -.03em;
-  -webkit-transform:
-    	scale(3.4)
-      translate(8.03em, 2.15em);
-  -moz-transform:
-      scale(3.4)
-      translate(7.03em, 2.15em);
-}
-
-.skills {
-  color: #ee5d29;
-  font-weight: 700;
-  letter-spacing: -.03em;
-  -webkit-transform:
-    	scale(1.8)
-      translate(9.95em, 11.55em);
-  -moz-transform:
-      scale(1.8)
-      translate(9.95em, 9.55em);
-}
-
-
-
 }
