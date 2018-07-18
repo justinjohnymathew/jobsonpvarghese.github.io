@@ -51,7 +51,7 @@ text-align: center;
   min-width: 220px;
   text-align:center;
   position: relative;
-  font-size: 30px;
+  font-size: 35px;
   font-weight: bold;
   animation: movement 4s infinite;
 }
@@ -68,10 +68,10 @@ text-align: center;
 }
 @media only screen and (max-width:549px){
   .skill-animation{
+    font-size: 35px;
     margin:auto;
     max-width:10%;
-    max-width: 150px;
-    margin-left: 80px;
+    min-width: 170px;
     text-align:center;
     position: relative;
     animation: movement 4s infinite;
