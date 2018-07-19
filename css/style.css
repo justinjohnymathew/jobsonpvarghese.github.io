@@ -70,21 +70,21 @@ text-align: center;
   .skill-animation{
     font-size: 35px;
     margin:auto;
-    max-width:10%;
-    min-width: 170px;
+    max-width:100%;
+    min-width: 50px;
     text-align:center;
     position: relative;
     animation: movement 4s infinite;
   }
   @keyframes movement{
     0%{
-      left: 140px;
+      left: 90px;
     }
     50%{
-      left: -140px
+      left: -90px
     }
     100%{
-      left: 140px;
+      left: 90px;
     }
   }
   .buttonarea{
