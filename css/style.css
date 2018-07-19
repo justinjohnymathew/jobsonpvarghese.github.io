@@ -23,7 +23,10 @@ color: red;
   width: 110px;
 }
 .subtitle{
-  color:#0B5972;
+  color:#46B9FF;
+}
+.subtitle:hover{
+  color: #FF5252;
 }
 .container{
 max-width: 1000px;
@@ -151,6 +154,7 @@ text-align: center;
   }
 
 }
+
 @media only screen and (min-width:550px) {
 .main-header{
   padding-top:100px;
@@ -256,7 +260,7 @@ font-weight: bold;
 }
 .footer{
 
-  background-color:lightgrey;
+  background-color:#F1F1F1;
   height: 45px;
   text-align: center;
   padding-right: 30px;
