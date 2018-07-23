@@ -3,6 +3,9 @@
   width: 130px;
   box-shadow: 0 4px 8px 0 , 0 6px 20px 0
 }
+body{
+  margin: 0;
+}
 a{
 text-decoration: none;
 color: inherit;
@@ -55,46 +58,32 @@ text-align: center;
 .skill-animation{
   margin:auto;
   color: grey;
-  max-width:10%;
-  min-width: 220px;
   text-align:center;
   position: relative;
-  font-size: 35px;
+  font-size: 40px;
   font-weight: bold;
-  animation: movement 4s infinite;
 }
-@keyframes movement{
-  0%{
-    left: 140px;
-  }
-  50%{
-    left: -140px
-  }
-  100%{
-    left: 140px;
-  }
+
+  .intro{
+  background-image: url(../media/bg1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  height: 55vh;
+  padding-top: 50px;
+  font-family: 'PT Serif', serif;
+  padding-left: 10%;
+  text-align: left;
+  color: lightgrey;
+  font-size: 24px;
 }
 @media only screen and (max-width:549px){
   .skill-animation{
     font-size: 35px;
-    margin:auto;
-    max-width:100%;
-    min-width: 50px;
     text-align:center;
     position: relative;
-    animation: movement 4s infinite;
-  }
-  @keyframes movement{
-    0%{
-      left: 90px;
-    }
-    50%{
-      left: -90px
-    }
-    100%{
-      left: 90px;
-    }
-  }
+}
   .buttonarea{
     border: none;
     width 40px;
@@ -106,11 +95,12 @@ text-align: center;
   .main-header{
     padding-top: 80px;
     padding-bottom: 40px;
-    background-image: url(../media/bg.jpg);
+    background-image: url(../media/bg2.jpg);
     width: 100%;
     background-position: center;
     backgrund-repeat: no-repeat;
     background-size: 100% 100%;
+    background-attachment: fixed;
   }
   .social{
     font-size: 40px;
@@ -129,7 +119,8 @@ text-align: center;
   .intro{
     text-align: center;
     padding-left: 0;
-    margin-bottom: 15%;
+    height: 100%;
+    padding-bottom: 30px;
   }
 
   .social a{
@@ -140,13 +131,11 @@ text-align: center;
     color:orange;
   }
   .about{
-    margin-top: 30px;
     text-align:left;
     font-size: 16px;
     color:lightgrey;
     background-color: ;
     padding-left: 20px;
-    padding-top: 0px;
     padding-right: 10px;
   }
   .aboutme{
@@ -159,7 +148,7 @@ text-align: center;
 .main-header{
   padding-top:100px;
   min-height:95vh;
-  background-image: url(../media/bg.jpg);
+  background-image: url(../media/bg2.jpg);
   background-position: center;
   backgrund-repeat: no-repeat;
   background-attachment: fixed;
@@ -176,10 +165,6 @@ text-align: center;
   padding-top: 50px;
   padding-bottom: 35px;
   padding-left: ;
-}
-
-.intro:hover{
-color:rgba(8, 7, 7, 0.87);
 }
 .social-icon{
   color: lightgrey;
@@ -206,23 +191,10 @@ color:rgba(8, 7, 7, 0.87);
   color:lightgrey;
   font-family: 'Raleway', sans-serif;
 }
-.detail{
-  background: #F0F5FD;
-  height: 100%;
-}.skill{
+.skill{
   margin-top: 5%;
 }
-.intro{
-  height: 240px;
-  padding-top: 30px;
-  padding-bottom:20px;
-  font-family: 'PT Serif', serif;
-  padding-left: 10%;
-  text-align: left;
-  color: #0D476A;
-  font-size: 16px;
 
-}
 .dream{
   font-size:30px;
   font-weight: bold;
@@ -237,13 +209,12 @@ color:rgba(8, 7, 7, 0.87);
 font-weight: bold;
 }
 .about{
-  margin-top: 60px;
   text-align:left;
   font-size: 16px;
   color:#F8FAFD;
   background-color: #42464A;
   padding-left: 30px;
-  padding-top: 20px;
+  padding-top: 30px;
   padding-right: 10px;
   font-family: 'Raleway', sans-serif;
   padding-bottom: 20px;
