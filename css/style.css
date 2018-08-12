@@ -30,16 +30,12 @@ color: red;
 .subtitle:hover{
   color: #FF5252;
 }
-.container{
-max-width: 1000px;
-text-align: center;
-}
-
 .edu{
   font-weight: bold;
 }
 .skillimg{
   width: 100%;
+  text-align: center;
 }
 .angle{
   font-size: 30px;
@@ -64,25 +60,19 @@ text-align: center;
 }
 
   .intro{
-  background-image: url(../media/bg1.jpg);
+  background-image: url(../media/bg2.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-attachment: fixed;
-  height: 55vh;
-  padding-top: 50px;
+  height: 90vh;
+  padding-top: 16%;
   font-family: 'PT Serif', serif;
-  padding-left: 10%;
-  text-align: left;
-  color: lightgrey;
-  font-size: 24px;
+  text-align: center;
+  color: white;
+  font-size: 30px;
 }
 @media only screen and (max-width:549px){
-  .skill-animation{
-    font-size: 35px;
-    text-align:center;
-    position: relative;
-}
   .buttonarea{
     border: none;
     width 40px;
@@ -90,11 +80,14 @@ text-align: center;
     text-align: center;
     padding-top: 40px !important;
   }
-
+  .myicon{
+    height: 120px;
+    width: 110px;
+  }
   .main-header{
     padding-top: 80px;
     padding-bottom: 40px;
-    background-image:url(../media/bg2.jpg);
+    background-image:url(../media/bg1.jpg);
     width: 100%;
     background-position: center;
     backgrund-repeat: no-repeat;
@@ -102,7 +95,7 @@ text-align: center;
     background-attachment: fixed;
   }
   .social{
-    font-size: 35px;
+    font-size: 25px;
     border: none;
     padding-top: 10px;
     text-align: center;
@@ -140,14 +133,16 @@ text-align: center;
   .aboutme{
     font-weight: bold;
   }
-
+  .Technology{
+    font-size: 18px !important;
+  }
 }
 
 @media only screen and (min-width:550px) {
 .main-header{
   padding-top:100px;
-  min-height:95vh;
-  background-image:url(../media/bg2.jpg);
+  min-height:100vh;
+  background-image:url(../media/bg1.jpg);
   background-position: center;
   backgrund-repeat: no-repeat;
   background-attachment: fixed;
@@ -191,11 +186,12 @@ text-align: center;
   font-family: 'Raleway', sans-serif;
 }
 .skill{
-  margin-top: 5%;
+  padding-top: 15%;
+  padding-bottom: 10%;
 }
 
 .dream{
-  font-size:30px;
+  font-size:35px;
   font-weight: bold;
 }
 .icon{
@@ -220,7 +216,11 @@ font-weight: bold;
 }
 .aboutme{
   font-weight: bold;
+  padding-top: 5%;
   padding-bottom: 20px;
+}
+.about-para{
+  padding-bottom: 5%;
 }
  .college{
   font-size: 22px;
@@ -244,5 +244,37 @@ font-weight: bold;
 {
   font-size: 30px;
 }
+.project-brand{
+  padding-top: 8%;
+  padding-bottom: 3%;
+}
+.project-brand{
+    color:black;
+    margin:auto;
+    text-align:center;
+    position: relative;
+    font-size: 40px;
+    font-weight: bold;
+}
+.project-discription{
+ padding-right: 5%;
+  padding-left: 15%;
+}
+.point{
+  font-size: 30px;
+}
+.Ongoing{
+  font-size: 25px;
+}
+.Technology{
+  text-align: center !important;
+  font-size: 25px;
 
+}
+.Goto{
+  font-size: 20px;
+}
+.projects{
+  padding-bottom: 10%;
+}
 }
